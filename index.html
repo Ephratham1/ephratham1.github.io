@@ -1,182 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my Portfolio</title>
-    <link rel="stylesheet" href="/documents/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sipho Simango | Web Developer & Systems Designer</title>
+    <meta name="description" content="Portfolio website of Sipho Xolani Simango, a web developer and systems designer specializing in modern web technologies." />
+    <meta name="author" content="Sipho Xolani Simango" />
 
-</head>
-<body>
-  <nav class="navbar">
-    <div class="navbar-container">
-      <div class="navbar-logo">
-        <a href="index.html" ><img src="/images/logo.png"></a>
-      </div>
+    <meta property="og:title" content="Sipho Simango | Web Developer & Systems Designer" />
+    <meta property="og:description" content="Portfolio website of Sipho Xolani Simango, a web developer and systems designer specializing in modern web technologies." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-      <!-- Desktop Navigation -->
-      <div class="navbar-links">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#interest" class="nav-link">Interests</a>
-        <a href="#education" class="nav-link">Education</a>
-        <a href="#project" class="nav-link">projects</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-
-      <!-- Mobile menu button -->
-      <div class="mobile-menu-button">
-        <button id="menu-toggle">
-          <span class="menu-icon">☰</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile menu -->
-    <div class="mobile-menu" id="mobile-menu">
-      <a href="#home" class="mobile-nav-link">Home</a>
-      <a href="#about" class="mobile-nav-link">About</a>
-      <a href="skills.html" class="mobile-nav-link">Skills</a>
-      <a href="#education" class="mobile-nav-link">Education</a>
-      <a href="#project" class="nav-link">projects</a>
-      <a href="#contact" class="mobile-nav-link">Contact</a>
-    </div>
-  </nav>
-  <!--prfile picheader-->
-<header>
-  <div class="Portfolio_pic">
-  <div class="image">
-    <img src="/images/photo.jpg" alt="developers profile picture">
-  </div>
-  </div>
-</header>
-<!--main section-->
-<main>
-  <div class="content">
-    <div class="hero">
-        <section id="about" class="about">
-          <div class="container">
-            <div class="section-header">
-              <h2>About Me</h2>
-              <div class="divider"></div>
-            </div>
-            <div class="about-content">
-              <p>
-                Hello! I'm Sipho Xolani Simango, a dedicated student pursuing a Diploma in Information Communication Technology at UNISA. I have an introductory background in system development and I'm passionate about learning new technologies.
-              </p>
-              <p>
-                I'm currently focusing on enhancing my skills in HTML, CSS, and database management through the PLP Academy Power Learn Project Africa. As a beginner in these areas, I'm committed to continuous learning and growing my expertise through practical projects and coursework.
-              </p>
-              <p>
-                My goal is to build a strong foundation in web development and system design to create meaningful and impactful digital solutions. I'm eager to apply my knowledge in real-world scenarios and contribute to innovative projects in the tech industry.
-              </p>
-            </div>
-          </div>
-          <div class="resume-download">
-            <a href="/documents/sipho_resume.pdf" download class="download-btn">📄 Download My Résumé</a>
-          </div>
-        </section>
-        </div>
-    </div>
-    <div class="mobile-menu-button">
-      <button id="menu-toggle">
-        <span class="menu-icon">☰</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- Mobile menu -->
-  <div class="mobile-menu" id="mobile-menu">
-    <a href="index.html" class="mobile-nav-link">Home</a>
-    <a href="about.html" class="mobile-nav-link">About</a>
-    <a href="skills.html" class="mobile-nav-link">Skills</a>
-    <a href="education.html" class="mobile-nav-link">Education</a>
-    <a href="contact.html" class="mobile-nav-link">Contact</a>
-  </div>
-</nav>
-
-<!--interest section-->
-<div class="container_interest" id = "interest">
-  <h1>My Interests</h1>
-  <p class="intro">Here are a few things I’m passionate about in tech and beyond:</p>
-  
-  <ul class="interest-list">
-    <li>👨‍💻 Building modern web applications with HTML, CSS, and JavaScript</li>
-    <li>💻 Exploring new frameworks and tools like React, Node.js, and Tailwind CSS</li>
-    <li>🔐 Learning about cybersecurity and ethical hacking</li>
-    <li>🎮 Playing and modding video games in my free time</li>
-    <li>📚 Reading tech blogs, watching coding tutorials, and constant learning</li>
-  </ul>
-</div>
-<!--education section -->
-<div class="education-container" id="education">
-  <h2>🎓 Educational Background</h2>
-  <p>I have foundational knowledge in the following technologies:</p>
-  <ul class="skills-list">
-    <li>HTML</li>
-    <li>Java</li>
-    <li>Databases</li>
-    <li>PHP</li>
-    <li>CSS</li>
-  </ul>
-  <p class="current-status">
-    I am currently a student at <strong>UNISA</strong>, pursuing a <em>Diploma in Systems Development</em>.
-    I'm also enhancing my skills through <strong>Power Learn Project (PLP) Academy</strong> by <strong>Power Learn Africa</strong>.
-  </p>
-</div>
-     <!--form section -->              
-<div class="contact-container" id="contact">
-      <h1>Contact me</h1>
-    <form class="contact-form" method="post" action="mailto:siphosimango@aol.com">
-    <div class="form-group">
-    <label for="name">Full Name</label>
-    <input type="text" id="name" name="name" required/>
-</div>
-<div class="form-group">
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="email" required/>
-</div>         
-  <div class="form-group">
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" required/>
-  </div>      
-        <div class="form-group">
-          <label for="message">Your Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-          
-              <button type="submit">Send Message</button>
-              </form>
-            </div>
-<!--footer-->
-            <footer class="footer">
-              <div class="footer-container">
-                  <p>&copy; 2025 Sipho Simango. All rights reserved.</p>
-                  <div class="social-links">
-                      <a href="https://github.com/Ephratham1" target="_blank" class="social-icon">
-                          <i class="fab fa-github"></i>
-                      </a>
-                      <a href="https://twitter.com/@xolani05962" target="_blank" class="social-icon">
-                          <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="https://facebook.com/sxyoungman" target="_blank" class="social-icon">
-                          <i class="fab fa-facebook"></i>
-                      </a>
-                  </div>
-              </div>
-          </footer>
-  <script>
-    // Simple JavaScript for the mobile menu toggle
-    const menuToggle = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@xolani05962" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     
-    menuToggle.addEventListener('click', () => {
-      mobileMenu.classList.toggle('active');
-      const menuIcon = menuToggle.querySelector('.menu-icon');
-      menuIcon.textContent = mobileMenu.classList.contains('active') ? '✕' : '☰';
-    });
-  </script>
- </section>   
-</body>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- External CSS -->
+     <link rel="stylesheet" href="documents/styles.css">
+    </head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="#home"><img src="images/logo.png"></span></a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#interests" class="nav-link">Interests</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="mobile-menu-button">
+          <button id="menu-toggle">
+            <span class="menu-icon">☰</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#home" class="mobile-nav-link active">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#interests" class="mobile-nav-link">Interests</a>
+        <a href="#education" class="mobile-nav-link">Education</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm Sipho Xolani Simango</h1>
+            <p class="hero-subtitle">
+              A passionate Information Communication Technology student with a focus on web development and system design.
+            </p>
+            <div class="hero-buttons">
+              <a href="#about" class="btn btn-primary">Learn More</a>
+              <a href="sipho_resume.pdf" class="btn btn-outline" target="_blank">
+                <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>
+                Download Resume
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/photo.jpg" alt="Sipho Simango" class="profile-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section section-white">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="divider"></div>
+          
+          <div class="about-content">
+            <p>
+              Hello! I'm Sipho Xolani Simango, a dedicated student pursuing a Diploma in Information Communication Technology at UNISA. I have an introductory background in system development and I'm passionate about learning new technologies.
+            </p>
+            <p>
+              I'm currently focusing on enhancing my skills in HTML, CSS, and database management through the PLP Academy Power Learn Project Africa. As a beginner in these areas, I'm committed to continuous learning and growing my expertise through practical projects and coursework.
+            </p>
+            <p>
+              My goal is to build a strong foundation in web development and system design to create meaningful and impactful digital solutions. I'm eager to apply my knowledge in real-world scenarios and contribute to innovative projects in the tech industry.
+            </p>
+          </div>
+          
+          <div class="resume-download">
+            <a href="/documents/sipho_resume" class="btn btn-outline" target="_blank">
+              <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>
+              Download My Résumé
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section id="interests" class="section section-gray">
+        <div class="container">
+          <h2 class="section-title">My Interests</h2>
+          <div class="divider"></div>
+          
+          <p class="section-text">
+            Here are a few things I'm passionate about in tech and beyond:
+          </p>
+          
+          <div class="interests-grid">
+            <div class="interest-card">
+              <div class="interest-emoji">👨‍💻</div>
+              <h3 class="interest-title">Web Development</h3>
+              <p class="interest-description">Building modern web applications with HTML, CSS, and JavaScript</p>
+            </div>
+            
+            <div class="interest-card">
+              <div class="interest-emoji">💻</div>
+              <h3 class="interest-title">New Frameworks</h3>
+              <p class="interest-description">Exploring new frameworks and tools like React, Node.js, and Tailwind CSS</p>
+            </div>
+            
+            <div class="interest-card">
+              <div class="interest-emoji">🔐</div>
+              <h3 class="interest-title">Cybersecurity</h3>
+              <p class="interest-description">Learning about cybersecurity and ethical hacking</p>
+            </div>
+            
+            <div class="interest-card">
+              <div class="interest-emoji">🎮</div>
+              <h3 class="interest-title">Gaming</h3>
+              <p class="interest-description">Playing and modding video games in my free time</p>
+            </div>
+            
+            <div class="interest-card">
+              <div class="interest-emoji">📚</div>
+              <h3 class="interest-title">Continuous Learning</h3>
+              <p class="interest-description">Reading tech blogs, watching coding tutorials, and constant learning</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section section-white">
+        <div class="container">
+          <h2 class="section-title">Educational Background</h2>
+          <div class="divider"></div>
+          
+          <div class="education-content">
+            <div class="education-card">
+              <div class="education-header">
+                <h3 class="education-title">University of South Africa (UNISA)</h3>
+                <p class="education-subtitle">Diploma in Information Communication Technology</p>
+                <p class="education-period">Current</p>
+              </div>
+              <div class="education-content">
+                <p class="education-description">
+                  Currently pursuing a comprehensive education in information technology, focusing on systems development and programming fundamentals.
+                </p>
+              </div>
+            </div>
+            
+            <div class="education-card">
+              <div class="education-header">
+                <h3 class="education-title">Power Learn Project Africa</h3>
+                <p class="education-subtitle">Web Development Program</p>
+                <p class="education-period">Current</p>
+              </div>
+              <div class="education-content">
+                <p class="education-description">
+                  Enhancing practical skills in web development technologies through PLP Academy's structured learning program.
+                </p>
+              </div>
+            </div>
+            
+            <div class="skills-container">
+              <h3 class="skills-title">Technical Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">PHP</div>
+                <div class="skill-item">Databases</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section section-gray">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="divider"></div>
+          
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/css.jpg" alt="Web Development Portfolio" />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Web Development Portfolio</h3>
+                <p class="project-description">My personal portfolio website built with Html and CSS.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Html5</Html:5></span>
+                  <span class="project-tag">Avdvanced CSS</span>
+                  <span class="project-tag">JavaScript</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="btn btn-outline">
+                  <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>
+                  Demo
+                </a>
+                <a href="https://github.com/Ephratham1" class="btn btn-outline">
+                  <i class="fab fa-github" style="margin-right: 0.5rem;"></i>
+                  Code
+                </a>
+              </div>
+            </div>
+            
+         
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section section-white">
+        <div class="container">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="divider"></div>
+          
+          <form class="contact-form" method="post" action="https://formsubmit.co/siphosimango@aol.com" >
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" required class="form-input" />
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" required class="form-input" />
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" required class="form-input" />
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" name="message" rows="5" required class="form-textarea"></textarea>
+            </div>
+            
+            <div style="text-align: center;">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div>
+            <a href="#home" class="footer-logo"><img src="images/1.png"></span></a>
+            <p class="footer-tagline">Web Developer & Systems Designer</p>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://github.com/Ephratham1" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="https://twitter.com/@xolani05962" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://facebook.com/sxyoungman" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-copyright">
+          <p>&copy; 2025 Sipho Xolani Simango. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIcon = document.querySelector('.menu-icon');
+      
+      menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+        menuIcon.textContent = mobileMenu.classList.contains('active') ? '✕' : '☰';
+      });
+      
+      // Header scroll effect
+      const header = document.getElementById('header');
+      
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 10) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+      
+      // Active navigation link
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+      
+      function setActiveLink() {
+        let scrollPosition = window.scrollY;
+        
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop - 100;
+          const sectionHeight = section.offsetHeight;
+          const sectionId = section.getAttribute('id');
+          
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              }
+            });
+            
+            mobileNavLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === `#${sectionId}`) {
+                link.classList.add('active');
+              }
+            });
+          }
+        });
+      }
+      
+      window.addEventListener('scroll', setActiveLink);
+      window.addEventListener('load', setActiveLink);
+      
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 70,
+              behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            if (mobileMenu.classList.contains('active')) {
+              mobileMenu.classList.remove('active');
+              menuIcon.textContent = '☰';
+            }
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
