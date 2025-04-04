@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="/documents/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        <a href="index.html" ><img src="/images/logo.png"></a>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="navbar-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#interest" class="nav-link">Interests</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#project" class="nav-link">projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="mobile-menu-button">
+        <button id="menu-toggle">
+          <span class="menu-icon">☰</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="skills.html" class="mobile-nav-link">Skills</a>
+      <a href="#education" class="mobile-nav-link">Education</a>
+      <a href="#project" class="nav-link">projects</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+  </nav>
+  <!--prfile picheader-->
+<header>
+  <div class="Portfolio_pic">
+  <div class="image">
+    <img src="/images/photo.jpg" alt="developers profile picture">
+  </div>
+  </div>
+</header>
+<!--main section-->
+<main>
+  <div class="content">
+    <div class="hero">
+        <section id="about" class="about">
+          <div class="container">
+            <div class="section-header">
+              <h2>About Me</h2>
+              <div class="divider"></div>
+            </div>
+            <div class="about-content">
+              <p>
+                Hello! I'm Sipho Xolani Simango, a dedicated student pursuing a Diploma in Information Communication Technology at UNISA. I have an introductory background in system development and I'm passionate about learning new technologies.
+              </p>
+              <p>
+                I'm currently focusing on enhancing my skills in HTML, CSS, and database management through the PLP Academy Power Learn Project Africa. As a beginner in these areas, I'm committed to continuous learning and growing my expertise through practical projects and coursework.
+              </p>
+              <p>
+                My goal is to build a strong foundation in web development and system design to create meaningful and impactful digital solutions. I'm eager to apply my knowledge in real-world scenarios and contribute to innovative projects in the tech industry.
+              </p>
+            </div>
+          </div>
+          <div class="resume-download">
+            <a href="/documents/sipho_resume.pdf" download class="download-btn">📄 Download My Résumé</a>
+          </div>
+        </section>
+        </div>
+    </div>
+    <div class="mobile-menu-button">
+      <button id="menu-toggle">
+        <span class="menu-icon">☰</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About</a>
+    <a href="skills.html" class="mobile-nav-link">Skills</a>
+    <a href="education.html" class="mobile-nav-link">Education</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+  </div>
+</nav>
+
+<!--interest section-->
+<div class="container_interest" id = "interest">
+  <h1>My Interests</h1>
+  <p class="intro">Here are a few things I’m passionate about in tech and beyond:</p>
+  
+  <ul class="interest-list">
+    <li>👨‍💻 Building modern web applications with HTML, CSS, and JavaScript</li>
+    <li>💻 Exploring new frameworks and tools like React, Node.js, and Tailwind CSS</li>
+    <li>🔐 Learning about cybersecurity and ethical hacking</li>
+    <li>🎮 Playing and modding video games in my free time</li>
+    <li>📚 Reading tech blogs, watching coding tutorials, and constant learning</li>
+  </ul>
+</div>
+<!--education section -->
+<div class="education-container" id="education">
+  <h2>🎓 Educational Background</h2>
+  <p>I have foundational knowledge in the following technologies:</p>
+  <ul class="skills-list">
+    <li>HTML</li>
+    <li>Java</li>
+    <li>Databases</li>
+    <li>PHP</li>
+    <li>CSS</li>
+  </ul>
+  <p class="current-status">
+    I am currently a student at <strong>UNISA</strong>, pursuing a <em>Diploma in Systems Development</em>.
+    I'm also enhancing my skills through <strong>Power Learn Project (PLP) Academy</strong> by <strong>Power Learn Africa</strong>.
+  </p>
+</div>
+     <!--form section -->              
+<div class="contact-container" id="contact">
+      <h1>Contact me</h1>
+    <form class="contact-form" method="post" action="mailto:siphosimango@aol.com">
+    <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required/>
+</div>
+<div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required/>
+</div>         
+  <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required/>
+  </div>      
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+          
+              <button type="submit">Send Message</button>
+              </form>
+            </div>
+<!--footer-->
+            <footer class="footer">
+              <div class="footer-container">
+                  <p>&copy; 2025 Sipho Simango. All rights reserved.</p>
+                  <div class="social-links">
+                      <a href="https://github.com/Ephratham1" target="_blank" class="social-icon">
+                          <i class="fab fa-github"></i>
+                      </a>
+                      <a href="https://twitter.com/@xolani05962" target="_blank" class="social-icon">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="https://facebook.com/sxyoungman" target="_blank" class="social-icon">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </div>
+              </div>
+          </footer>
+  <script>
+    // Simple JavaScript for the mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+      const menuIcon = menuToggle.querySelector('.menu-icon');
+      menuIcon.textContent = mobileMenu.classList.contains('active') ? '✕' : '☰';
+    });
+  </script>
+ </section>   
+</body>
+</html>
